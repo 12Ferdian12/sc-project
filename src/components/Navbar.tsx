@@ -15,7 +15,7 @@ function Navbar() {
         <li className="mx-2">
           <a
             href="#"
-            className="hover:border-b-2 text-amber-300 hover:border-amber-300 px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-150"
+            className="hover:border-b-2 text-amber-300 hover:border-amber-300 px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
           >
             FAQ
           </a>
@@ -23,23 +23,20 @@ function Navbar() {
         <li className="mx-2">
           <a
             href="#"
-            className="hover:border-b-2 text-amber-300 hover:border-amber-300 px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-150"
+            className="hover:border-b-2 text-amber-300 hover:border-amber-300 px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
           >
             FAQ
           </a>
         </li>
-        <li className="mx-2">
+        <li className="mx-2 border-2 w-[85px] h-[40px] bg-amber-300 border-amber-300 rounded-full px-[4px] py-[3px] ">
           <a
-            href="#"
-            className="hover:border-b-2 text-amber-300 hover:border-amber-300 px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-150"
+            href=""
+            className=" pt-[4px] text-black   font-bold text-base transition ease-in-out duration-500"
           >
-            FAQ
+            <p className="pt-[3px] px-[9px] w-[50px] hover:border-b-2 hover:border-black">
+              Tutorial
+            </p>
           </a>
-        </li>
-        <li className="mx-2 border-2  h-[40px] bg-amber-300 border-amber-300 rounded px-[4px] py-[3px] ">
-          <p className="hover:border-b-2 pt-[4px] text-black hover:border-black  font-bold text-base transition ease-in-out duration-150">
-            Tutorial
-          </p>
         </li>
       </ul>
     </nav>

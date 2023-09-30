@@ -2,16 +2,49 @@ import { AiFillInstagram } from "react-icons/ai";
 
 function Footer() {
   return (
-    <footer className="flex bg-Brown2 bottom-0 h-[80px] border-t-2 border-amber-300 items-center ">
-      <div className="text-amber-300 ">
-        <div className="pl-3">
-          <a className="" href="https://www.instagram.com/f_rdi_n/">
-            <AiFillInstagram size={35} />
-          </a>
+    <footer className=" bg-Brown2 bottom-0 h-[200px] text-Yellow border-t-2 border-Yellow items-center ">
+      <div className="flex space-x-96  ">
+        <div className="pt-5 pl-3">
+          <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow">
+            Social
+          </h1>
+          <div className="########">
+            <a href="">....@gmail.com</a>
+            <a href="">+62</a>
+          </div>
+        </div>
+        <div className="pt-5 pl-3">
+          <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow">
+            Buy Our Product
+          </h1>
+          <div className="########">
+            <a href="">....@gmail.com</a>
+            <a href="">+62</a>
+          </div>
+        </div>
+        <div className="pt-5 pl-3">
+          <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow">
+            Follow Us
+          </h1>
+          <div className="########">
+            <a
+              className=""
+              href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
+            >
+              <AiFillInstagram size={35} />
+            </a>
+          </div>
         </div>
       </div>
-      <div className="flex text-amber-300 mx-auto">
-        © {new Date().getFullYear()} By Ferdian
+      <div className="flex">
+        <div className="pt-[50px] pl-3 w-[400px]">
+          <p className="font-">
+            Jl.Wijaya Kusuma No.48, Kec.Genteng, Suarabaya, Jawa Timur 60272
+          </p>
+        </div>
+        <div className="flex pt-[50px] mx-[180px] text-Yellow ">
+          © {new Date().getFullYear()} By Ferdian
+        </div>
       </div>
     </footer>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="bg-Green mb-10 h-[700px]">
+    <section className="bg-Green  min-h-[700px]">
       {/* <div className="absolute md:p-18 lg:p-36 w-[200px] h-[200px] lg:w-full lg:h-full blur-2xl -z-10">
         <img src="./img./bg1.png" alt="" />
       </div> */}
@@ -16,8 +16,8 @@ function Hero() {
         </p>
       </div>
       <div className="pt-[25px] md:pl-[100px] pl-[50px]">
-        <button className="border shadow-xl h-[50px] w-[100px] bg-Yellow border-black rounded-xl">
-          <a href={"#about"} className="font-semibold">
+        <button className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-Yellow mx-2 border-2 w-[95px] h-[50px] bg-Yellow border-black rounded-full flex items-center justify-center">
+          <a href={"#about"} className="font-semibold ">
             Continue
           </a>
         </button>

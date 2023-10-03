@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="sticky p-7 top-0 justify-between items-center  flex bg-Brown2 border-b-2 border-Yellow h-[85px]">
+    <nav className="sticky p-7 top-0 justify-between items-center  flex bg-Brown2 border-b-2 border-Yellow h-[100px]">
       <div className="bg-white border-2 border-Yellow rounded-full">
         <img
           src="img/Logo.png"
@@ -17,7 +17,7 @@ function Navbar() {
             href={"#about"}
             className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
           >
-            about
+            About
           </a>
         </li>
         <li className="mx-2">
@@ -28,12 +28,9 @@ function Navbar() {
             Product
           </a>
         </li>
-        <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-Yellow rounded-full px-[4px] py-[3px] ">
-          <a
-            href=""
-            className=" pt-[4px] text-black   font-bold text-base transition ease-in-out duration-500"
-          >
-            <p className="pt-[3px] px-[9px] w-[50px] hover:border-b-2 hover:border-black">
+        <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-Yellow rounded-full flex items-center justify-center">
+          <a href="" className="text-black">
+            <p className="hover:border-b-2 hover:border-black font-bold text-base transition ease-in-out duration-500">
               Tutorial
             </p>
           </a>

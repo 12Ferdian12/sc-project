@@ -1,8 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 function Navbar() {
   return (
-    <nav className="sticky p-7 top-0 justify-between items-center  flex bg-Brown2 border-b-2 border-Yellow h-[100px]">
+    <nav className="sticky p-7 top-0 justify-between items-center z-50 flex bg-Brown2 border-b-2 border-Yellow h-[100px]">
       <div className="bg-white border-2 border-Yellow rounded-full">
         <img
           src="img/Logo.png"
@@ -28,12 +29,12 @@ function Navbar() {
             Product
           </a>
         </li>
-        <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-Yellow rounded-full flex items-center justify-center">
-          <a href="" className="text-black">
-            <p className="hover:border-b-2 hover:border-black font-bold text-base transition ease-in-out duration-500">
+        <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black rounded-full flex items-center justify-center">
+          <Link href="/Tutorial">
+            <p className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500">
               Tutorial
             </p>
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

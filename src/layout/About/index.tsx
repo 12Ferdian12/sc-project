@@ -80,7 +80,7 @@ function about() {
           </div>
           <div className="flex">
             <div className="border-2 bg-black w-[15px] h-[15px] border-black rounded-full"></div>
-            <div className="my-auto h-[5px] bg-black w-[200px]"></div>
+            <div className="my-auto h-[5px] bg-black w-[600px]"></div>
           </div>
           <div className="flex h-[300px]">
             <p className="container text-2xl font-semibold mt-2 text-ellipsis overflow-hidden">

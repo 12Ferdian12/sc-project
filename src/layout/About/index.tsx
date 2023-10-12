@@ -55,24 +55,24 @@ function about() {
       </div> */}
       <div className="flex-col-reverse flex w-full lg:flex-row">
         <div className="flex-col px-10 pt-12 w-full lg:w-1/2">
-          <h1 className="text-4xl mb-2 font-bold border-b-4 border-black">
+          <h1 className="text-4xl  mb-2 font-bold border-b-4 border-black">
             About
           </h1>
-          <div className="text-2xl h-10 mb-2 space-x-3">
+          <div className="text-2xl font-semibold h-10 mb-2 space-x-3">
             <button
-              className="hover:border-b-[3px] hover:border-black"
+              className="hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:border-black"
               onClick={() => setStateAbout("ferdi")}
             >
               Ferdi
             </button>
             <button
-              className="hover:border-b-[3px] hover:border-black"
+              className="hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:border-black"
               onClick={() => setStateAbout("ganteng")}
             >
               Ganteng
             </button>
             <button
-              className="hover:border-b-[3px] hover:border-black"
+              className="hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:border-black"
               onClick={() => setStateAbout("banget")}
             >
               Banget

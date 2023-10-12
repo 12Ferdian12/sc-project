@@ -14,6 +14,7 @@ import {
   closeLoadingModal,
   openLoadingModal,
 } from "@/redux/reducer/loadingModalReducer";
+import Game from "@/layout/game";
 
 export const metadata: Metadata = {
   title: "Olativity",
@@ -30,7 +31,7 @@ export default function Home() {
     dispatch(openLoadingModal());
     setTimeout(() => {
       dispatch(closeLoadingModal());
-    }, 5000);
+    }, 3000);
   }, []);
 
   return (
@@ -40,6 +41,7 @@ export default function Home() {
         <Hero />
         <About />
         <Product />
+        <Game />
       </main>
       <Footer />
     </>

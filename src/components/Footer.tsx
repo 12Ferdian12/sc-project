@@ -1,4 +1,5 @@
 import { AiFillInstagram } from "react-icons/ai";
+import { FaTiktok } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -70,12 +71,18 @@ function Footer() {
             <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center">
               Follow Us
             </h1>
-            <div className="########">
+            <div className="flex">
               <a
                 className=""
                 href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
               >
                 <AiFillInstagram size={35} />
+              </a>
+              <a
+                className=""
+                href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
+              >
+                <FaTiktok size={33} />
               </a>
             </div>
           </div>

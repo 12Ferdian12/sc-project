@@ -20,10 +20,15 @@ function game() {
               consectetur accusamus, omnis labore perferendis natus! Consectetur
               excepturi distinctio numquam ab ea!
             </p>
-            <div className="w-[500px] border rounded border-black text-Yellow bg-Brown2">
+            <div className="w-[700px] border rounded border-black text-Yellow bg-Brown2">
               <div className=" px-5 py-5 font-semibold text-xl">
-                <h1>Link:</h1>
-                <a href="">nama link gform ygy</a>
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSd1qkXC-ydevKoolt4w_MdAl12xmnBrGf-UNwVdXifgnTKd-A/viewform?embedded=true"
+                  width="640"
+                  height="555"
+                >
+                  Loading…
+                </iframe>
               </div>
             </div>
           </div>

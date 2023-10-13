@@ -17,7 +17,7 @@ function Navbar() {
       <ul className="flex  items-center justify-between">
         <li className="mx-2">
           <a
-            href={"#about"}
+            href={"/#about"}
             className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
           >
             About
@@ -25,7 +25,7 @@ function Navbar() {
         </li>
         <li className="mx-2">
           <a
-            href="#"
+            href="/#product"
             className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
           >
             Product

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-function about() {
+function About() {
   const [stateAbout, setStateAbout] = useState("ferdi");
 
   return (
@@ -104,7 +104,7 @@ function about() {
   );
 }
 
-export default about;
+export default About;
 
 function ferdi() {
   return <>ferdi</>;

@@ -51,27 +51,9 @@ function Footer() {
         <div className="flex-row space-y-5 lg:space-y-0 justify-around lg:flex">
           <div className="">
             <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center">
-              Social
-            </h1>
-            <div className="########">
-              <a href="">....@gmail.com</a>
-              <a href="">+62</a>
-            </div>
-          </div>
-          <div className="">
-            <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center">
-              Buy Our Product
-            </h1>
-            <div className="########">
-              <a href="">....@gmail.com</a>
-              <a href="">+62</a>
-            </div>
-          </div>
-          <div className="">
-            <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center">
               Follow Us
             </h1>
-            <div className="flex">
+            <div className="flex justify-center items-center">
               <a
                 className=""
                 href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
@@ -86,12 +68,30 @@ function Footer() {
               </a>
             </div>
           </div>
+          <div className="">
+            <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center">
+              Social
+            </h1>
+            <div className="########">
+              <a href="#">....@gmail.com</a>
+              <a href="">+62</a>
+            </div>
+          </div>
+          <div className="">
+            <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center">
+              Buy Our Product
+            </h1>
+            <div className="########">
+              <a href="">....@gmail.com</a>
+              <a href="">+62</a>
+            </div>
+          </div>
         </div>
         <div className=" p-2">
           <p className="font-">
             Jl.Wijaya Kusuma No.48, Kec.Genteng, Suarabaya, Jawa Timur 60272
           </p>
-          <a className="font-bold" href="https://mailto:olativity@gmail.com">
+          <a className="font-bold" href="mailto:olativity@gmail.com">
             ...gmail.com
           </a>
         </div>

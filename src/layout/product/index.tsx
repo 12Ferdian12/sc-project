@@ -2,7 +2,7 @@ import React from "react";
 
 function Product() {
   return (
-    <section className="bg-Yellow  min-h-[750px]">
+    <section id="product" className="bg-Yellow  min-h-[750px]">
       <div className="px-10 pt-12">
         <h1 className="text-4xl border-b-4 w-full border-black font-bold">
           Tanaman Hidroponik

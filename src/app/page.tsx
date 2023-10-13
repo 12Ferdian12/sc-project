@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -25,15 +23,6 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(openLoadingModal());
-    setTimeout(() => {
-      dispatch(closeLoadingModal());
-    }, 3000);
-  }, []);
-
   return (
     <>
       <Navbar />

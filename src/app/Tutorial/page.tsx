@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import type { Metadata } from "next";
+import Hybox from "@/layout/Tutorial/HyboxTutor";
 
 export const metadata: Metadata = {
   title: "Olativity",
@@ -15,6 +16,9 @@ function tutorialPage() {
   return (
     <>
       <Navbar />
+      <main>
+        <Hybox />
+      </main>
       <Footer />
     </>
   );

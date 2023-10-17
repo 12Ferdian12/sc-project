@@ -13,7 +13,6 @@ function Navbar() {
           />
         </Link>
       </div>
-
       <ul className="flex  items-center justify-between">
         <li className="mx-2">
           <a
@@ -34,9 +33,9 @@ function Navbar() {
         <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex ">
           <Link
             href="/Tutorial"
-            className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500"
+            className="hover:border-b-2 mx-auto my-auto text-black hover:border-black font-bold text-base transition ease-in-out duration-500"
           >
-            Tutorial
+            <p className="">Tutorial</p>
           </Link>
         </li>
       </ul>

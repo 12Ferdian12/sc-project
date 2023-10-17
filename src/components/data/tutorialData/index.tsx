@@ -10,7 +10,7 @@ export const HyboxList: hybox[] = [
   {
     title: "Langkah 1",
     description: "Siapkan alat dan bahan.",
-    image: "path/to/image1.jpg",
+    image: "public/img/testing.jpg",
   },
   {
     title: "Langkah 2",

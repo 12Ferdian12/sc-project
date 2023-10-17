@@ -24,11 +24,11 @@ function Hero() {
         </div>
       </div>
       <div className=" lg:py-10   lg:w-full lg:h-full  ">
-        <img
+        {/* <img
           className="hidden md:block border-l rounded-full w-[800px] h-[500px]"
           src="./img/testing.jpeg"
           alt=""
-        />
+        /> */}
       </div>
     </section>
   );

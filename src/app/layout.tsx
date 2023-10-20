@@ -3,11 +3,12 @@
 import { store } from "@/redux/store";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, League_Spartan } from "next/font/google";
 import { Provider } from "react-redux";
 import LoadingModal from "@/components/loadingModal";
 
 const inter = Inter({ subsets: ["latin"] });
+export const leagueSpartan = League_Spartan({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,

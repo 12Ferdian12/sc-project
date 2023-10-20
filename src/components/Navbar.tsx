@@ -30,7 +30,7 @@ function Navbar() {
             Product
           </a>
         </li>
-        <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex ">
+        <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex justify-center items-center ">
           <Link
             href="/Tutorial"
             className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500"

@@ -3,7 +3,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="flex bg-Green  min-h-[700px]">
+    <section className="flex bg-gradient-to-b from-slate-700/50 to-Yellow bg-opacity-50 bg-cover min-h-[1000px]">
+      <img className="absolute -z-10 " src="./img/Hero.jpg" alt="" />
       <div className="md:pt-[250px] pt-[150px] pl-[50px] lg:pl-[100px] ">
         <h1 className=" text-white font-sans  font-extrabold  mb-5 text-3xl md:text-6xl">
           START <span className="text-Yellow">PLANTING?</span>START WITH

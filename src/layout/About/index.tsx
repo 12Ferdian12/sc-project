@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { leagueSpartan } from "@/app/layout";
 
 function About() {
   const [stateAbout, setStateAbout] = useState("ferdi");
@@ -55,7 +56,9 @@ function About() {
       </div> */}
       <div className="flex-col-reverse flex w-full lg:flex-row">
         <div className="flex-col px-10 pt-12 w-full lg:w-1/2">
-          <h1 className="text-4xl  mb-2 font-bold border-b-4 border-black">
+          <h1
+            className={`${leagueSpartan.className} text-4xl mb-2 font-bold border-b-4 border-black`}
+          >
             About
           </h1>
           <div className="text-2xl font-semibold h-10 mb-2 space-x-3">

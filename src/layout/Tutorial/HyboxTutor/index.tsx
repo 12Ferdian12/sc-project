@@ -9,7 +9,7 @@ function Hybox() {
           {HyboxList.map((Hybox, i) => {
             return (
               <div
-                className="my-5 mx-auto p-4 border-2 w-[1200px] bg-Brown2 text-Yellow border-black shadow-xl rounded-2xl "
+                className="my-5 mx-auto p-4 border-2 w-11/12 bg-Brown2 text-Yellow border-black shadow-xl rounded-2xl "
                 key={i}
               >
                 <div className="text-black justify-center items-center border-r border-b bg-Yellow border-Yellow max-w-[50px] rounded-2xl">
@@ -24,7 +24,7 @@ function Hybox() {
                   <div className="">
                     <div className=" flex justify-center items-center">
                       <img
-                        className="w-[600px] rounded h-[300px]"
+                        className="rounded lg:h-[300px]"
                         src={Hybox.image}
                         alt=""
                       />

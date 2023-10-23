@@ -1,11 +1,16 @@
+"use client";
+
+import { leagueSpartan } from "@/app/layout";
 import React from "react";
 
 function Product() {
   return (
     <section id="product" className="bg-Yellow  min-h-[750px]">
       {/* Laptop View */}
-      <div className="hidden lg:block px-10 pt-12">
-        <h1 className="text-4xl border-b-4 w-full border-black font-bold">
+      <div data-aos="fade-right" className="hidden lg:block px-10 pt-12">
+        <h1
+          className={`${leagueSpartan.className} text-4xl border-b-4 w-full border-black font-bold`}
+        >
           Tanaman Hidroponik
         </h1>
         <div className="flex">

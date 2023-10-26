@@ -63,22 +63,28 @@ function About() {
           </h1>
           <div className="text-2xl font-semibold h-10 mb-2 space-x-3">
             <button
-              className="hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:border-black"
+              className=" border-[3px] rounded-full border-Green px-3 py-1 bg-Brown2"
               onClick={() => setStateAbout("ferdi")}
             >
-              Ferdi
+              <p className="flex justify-center items-center  text-Yellow  hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:border-Green">
+                Ferdi
+              </p>
             </button>
             <button
-              className="hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:border-black"
+              className=" border-[3px] rounded-full border-Green px-3 py-1 bg-Brown2"
               onClick={() => setStateAbout("ganteng")}
             >
-              Ganteng
+              <p className="flex justify-center items-center  text-Yellow  hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:border-Green">
+                Ganteng
+              </p>
             </button>
             <button
-              className="hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:border-black"
-              onClick={() => setStateAbout("banget")}
+              className=" border-[3px] rounded-full border-Green px-3 py-1 bg-Brown2"
+              onClick={() => setStateAbout("Banget")}
             >
-              Banget
+              <p className="flex justify-center items-center  text-Yellow  hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:border-Green">
+                Banget
+              </p>
             </button>
           </div>
           <div className="flex">
@@ -110,7 +116,7 @@ function About() {
 export default About;
 
 function ferdi() {
-  return <>ferdi</>;
+  return <>Saya itu Fans Lord GALANG</>;
 }
 
 function ganteng() {
@@ -137,5 +143,10 @@ function ganteng() {
 }
 
 function banget() {
-  return <>hai</>;
+  return (
+    <>
+      Di Section Ganteng itu Ucapan Fikri Manggala atau Purchasing yang selalu
+      omel ke Saya
+    </>
+  );
 }

@@ -7,15 +7,15 @@ function Game() {
   const mediaQueryMd = useMediaQuery("(min-width: 768px)");
   return (
     <>
-      <section className="bg-Yellow min-h-[750px]">
-        <img
+      <section className="bg-Green border-t-2 border-black text-white min-h-[750px]">
+        {/* <img
           className="mx-auto w-[1200px] h-[300px]"
           src="./img/testing.jpeg"
           alt=""
-        />
+        /> */}
         <div className=" px-10 py-10">
           <h1
-            className={`${leagueSpartan.className} text-4xl font-bold border-b-[4px] border-black`}
+            className={`${leagueSpartan.className} text-4xl font-bold border-b-[4px] border-white`}
           >
             #Challenge
           </h1>
@@ -26,6 +26,15 @@ function Game() {
               consectetur accusamus, omnis labore perferendis natus! Consectetur
               excepturi distinctio numquam ab ea!
             </p>
+            <div className="font-semibold px-5 py-2 text-Yellow border-2 border-black rounded-lg bg-Brown2">
+              <h1 className="text-3xl font-bold ">Form:</h1>
+              <a
+                className="text-sm lg:text-2xl  "
+                href="https://forms.gle/6Xy8EJkDZoGz1eyK8"
+              >
+                https://forms.gle/6Xy8EJkDZoGz1eyK8
+              </a>
+            </div>
           </div>
         </div>
       </section>

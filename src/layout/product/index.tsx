@@ -16,16 +16,12 @@ function Product() {
         <div className="flex">
           <div className="mt-5 text-Yellow bg-Brown2 border w-[700px] p-2 border-black rounded-lg">
             <h1 className="text-3xl font-bold">Description:</h1>
-            <p className="py-6 font-medium w-[600px]">
-              Mediahidroponik yang diinovasikan melalui pot dengan menanamkan
-              bibit sawi pagoda. Desain konsep kemasan menggunakan board game
-              yang di desain cara khusus. Keunggulan produk kami yaitu produk
-              yang kami kemas berukuran kecil yang bisa menghemat ruang untuk
-              tanaman hidroponik lainnya. Keunikan yang kami berikan yaitu
-              desain kemasan yang berbentuk peti dan QR code yang tercantum di
-              bagian samping box berisi langkah-langkah yang sudah tersusun,
-              dioperasikan dengan cara scan lalu pasang alat dan bagian-bagian
-              hidroponik lainnya melalui website yang sudah kami buat. =Revisi=
+            <p className="text-xl py-7 font-medium w-[600px]">
+              Hybox merupakan perangkat menanam yang dirancang khusus untuk
+              mempermudah proses penanaman benih tumbuhan yang berukuran kecil
+              sampai sedang sehingga dapat lebih efisien dan maksimal bagi
+              mereka yang memiliki hobi menanam namun tidak memiliki lahan
+              ataupun hanya memiliki lahan yang sangat terbatas
             </p>
           </div>
           <img

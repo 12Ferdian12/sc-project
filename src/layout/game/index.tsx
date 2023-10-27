@@ -27,13 +27,22 @@ function Game() {
               excepturi distinctio numquam ab ea!
             </p>
             <div className="font-semibold px-5 py-2 text-Yellow border-2 border-black rounded-lg bg-Brown2">
-              <h1 className="text-3xl font-bold ">Form:</h1>
-              <a
-                className="text-sm lg:text-2xl  "
-                href="https://forms.gle/6Xy8EJkDZoGz1eyK8"
-              >
-                https://forms.gle/6Xy8EJkDZoGz1eyK8
-              </a>
+              <h1 className="text-3xl font-bold border-b-4 border-Yellow">
+                Form:
+              </h1>
+              <div className="px-auto flex flex-col my-4 w-full items-center justify-center">
+                <img
+                  className="lg:max-w-[350px]"
+                  src="./img/QrForm.png"
+                  alt="Link Submit"
+                />
+                <a
+                  className="text-sm lg:text-2xl  "
+                  href="https://forms.gle/6Xy8EJkDZoGz1eyK8"
+                >
+                  https://forms.gle/6Xy8EJkDZoGz1eyK8
+                </a>
+              </div>
             </div>
           </div>
         </div>

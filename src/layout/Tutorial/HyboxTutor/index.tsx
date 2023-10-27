@@ -9,6 +9,7 @@ function Hybox() {
           {HyboxList.map((Hybox, i) => {
             return (
               <div
+                data-aos={i % 2 == 0 ? "fade-right" : "fade-left"}
                 className="my-5 mx-auto p-4 border-2 w-11/12 bg-Brown2 text-Yellow border-black shadow-xl rounded-2xl "
                 key={i}
               >

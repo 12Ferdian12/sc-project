@@ -61,31 +61,28 @@ function About() {
           >
             About
           </h1>
-          <div className="text-2xl font-semibold h-10 mb-2 space-x-3">
-            <button
-              className=" border-[3px] rounded-full border-Green px-3 py-1 bg-Brown2"
-              onClick={() => setStateAbout("ferdi")}
-            >
-              <p className="flex justify-center items-center  text-Yellow  hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:border-Green">
-                Ferdi
-              </p>
-            </button>
-            <button
-              className=" border-[3px] rounded-full border-Green px-3 py-1 bg-Brown2"
-              onClick={() => setStateAbout("ganteng")}
-            >
-              <p className="flex justify-center items-center  text-Yellow  hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:border-Green">
-                Ganteng
-              </p>
-            </button>
-            <button
-              className=" border-[3px] rounded-full border-Green px-3 py-1 bg-Brown2"
-              onClick={() => setStateAbout("Banget")}
-            >
-              <p className="flex justify-center items-center  text-Yellow  hover:border-b-[3px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  hover:border-Green">
-                History
-              </p>
-            </button>
+          <div className="flex text-2xl font-semibold h-10 mb-2 space-x-3 ">
+            <div className="border-b-4 rounded border-Brown2">
+              <button onClick={() => setStateAbout("ferdi")}>
+                <p className="flex justify-center items-center border-Green border-b-[4px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  ">
+                  Ferdi
+                </p>
+              </button>
+            </div>
+            <div className="border-b-4 rounded border-Brown2">
+              <button onClick={() => setStateAbout("ganteng")}>
+                <p className="flex justify-center items-center border-Green border-b-[4px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 ">
+                  Ganteng
+                </p>
+              </button>
+            </div>
+            <div className="border-b-4 rounded border-Brown2">
+              <button onClick={() => setStateAbout("Banget")}>
+                <p className="flex justify-center items-center border-Green border-b-[4px] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  ">
+                  History
+                </p>
+              </button>
+            </div>
           </div>
           <div className="flex">
             <div className="border-2 bg-black w-[15px] h-[15px] border-black rounded-full"></div>

@@ -69,41 +69,39 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-
-        {/* create me menu with vertical when humberger menu open */}
-        <div
-          className={`${
-            navbarOpen ? "flex" : "hidden"
-          } lg:hidden flex-col items-center justify-center w-full h-full bg-Brown2`}
-        >
-          <ul className="flex flex-col items-center justify-center w-full h-full">
-            <li className="mx-2">
-              <a
-                href={"/#about"}
-                className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
-              >
-                About
-              </a>
-            </li>
-            <li className="mx-2">
-              <a
-                href="/#product"
-                className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
-              >
-                Product
-              </a>
-            </li>
-            <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex justify-center items-center ">
-              <Link
-                href="/Tutorial"
-                className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500"
-              >
-                Tutorial
-              </Link>
-            </li>
-          </ul>
-        </div>
       </div>
+
+      {/* create me menu with vertical when humberger menu open */}
+      <ul
+        className={`${
+          navbarOpen ? "flex" : "hidden"
+        } lg:hidden flex-col items-center justify-center w-full h-full bg-Brown2`}
+      >
+        <li className="mx-2">
+          <a
+            href={"/#about"}
+            className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+          >
+            About
+          </a>
+        </li>
+        <li className="mx-2">
+          <a
+            href="/#product"
+            className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+          >
+            Product
+          </a>
+        </li>
+        <li className="mx-2 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex justify-center items-center ">
+          <Link
+            href="/Tutorial"
+            className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500"
+          >
+            Tutorial
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 }

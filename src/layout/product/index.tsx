@@ -31,7 +31,7 @@ function Product() {
           />
         </div>
       </div>
-      <div className="lg:hidden px-10 pt-12">
+      <div className="lg:hidden pb-5 px-10 pt-12">
         <h1 className="text-4xl border-b-4 w-full border-black font-bold">
           Tanaman Hidroponik
         </h1>

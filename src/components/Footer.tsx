@@ -49,7 +49,7 @@ function Footer() {
             Jl.Wijaya Kusuma No.48, Kec.Genteng, Suarabaya, Jawa Timur 60272
           </p>
           <a className="font-bold" href="mailto:olativity@gmail.com">
-            ...gmail.com
+            olativity@gmail.com
           </a>
         </div>
       </div>

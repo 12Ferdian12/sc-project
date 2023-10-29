@@ -13,8 +13,8 @@ function Hero() {
         data-aos="fade-right"
         className="md:pt-[250px] pt-[150px] pl-[50px] lg:pl-[100px] "
       >
-        <h1 className=" text-white font-sans  font-extrabold  mb-5 text-3xl lg:text-6xl">
-          START <span className="text-Yellow">PLANTING?</span>START WITH
+        <h1 className=" text-white font-sans  font-extrabold  mb-5 sm:w-[150] text-3xl lg:text-6xl">
+          START <span className="text-Yellow">PLANTING?</span> START WITH
           <span className="text-Yellow"> OLATIVITY</span>
         </h1>
         <p className="container font-semibold w-[310px] md:w-[750px] text-white text-lg md:text-xl ">

@@ -46,15 +46,11 @@ function Product() {
               Description:
             </h1>
             <p>
-              Mediahidroponik yang diinovasikan melalui pot dengan menanamkan
-              bibit sawi pagoda. Desain konsep kemasan menggunakan board game
-              yang di desain cara khusus. Keunggulan produk kami yaitu produk
-              yang kami kemas berukuran kecil yang bisa menghemat ruang untuk
-              tanaman hidroponik lainnya. Keunikan yang kami berikan yaitu
-              desain kemasan yang berbentuk peti dan QR code yang tercantum di
-              bagian samping box berisi langkah-langkah yang sudah tersusun,
-              dioperasikan dengan cara scan lalu pasang alat dan bagian-bagian
-              hidroponik lainnya melalui website yang sudah kami buat.s
+              Hybox merupakan perangkat menanam yang dirancang khusus untuk
+              mempermudah proses penanaman benih tumbuhan yang berukuran kecil
+              sampai sedang sehingga dapat lebih efisien dan maksimal bagi
+              mereka yang memiliki hobi menanam namun tidak memiliki lahan
+              ataupun hanya memiliki lahan yang sangat terbatas
             </p>
           </div>
         </div>

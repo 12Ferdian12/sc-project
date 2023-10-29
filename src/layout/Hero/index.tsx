@@ -18,10 +18,8 @@ function Hero() {
           <span className="text-Yellow"> OLATIVITY</span>
         </h1>
         <p className="container font-semibold w-[310px] md:w-[750px] text-white text-lg md:text-xl ">
-          Lorem ipsum dolor sit ame consectetur adipisicing elit. Quas adipisci
-          ullam quae voluptatum laboriosam! Molestias ut alias veniam delectus,
-          quisquam similique, corrupti debitis officia, aperiam quasi culpa
-          suscipit expedita tempore.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          quaerat praesentium, distinctio quia dignissimos officiis!
         </p>
         <div className="pt-[25px] w-4  ">
           <button className="transition z-10 ease-in-out delay-150 shadow-xl hover:-translate-y-1 hover:scale-110 hover:bg-Yellow mx-2 border-2 w-[95px] h-[50px] bg-Yellow border-black rounded-full flex items-center justify-center">

@@ -1,23 +1,39 @@
+"use client";
+
 import LoadingModal from "@/components/loadingModal";
-import React from "react";
+import React, { useEffect } from "react";
+import { useMediaQuery } from "@/hooks";
 
 function Hero() {
+  const isMobile = useMediaQuery("(max-width: 768px)");
+
+  useEffect(() => {
+    console.log("isMobile", isMobile);
+  }, [isMobile]);
+
   return (
-    <section className="flex bg-gradient-to-b from-slate-700/50 to-Yellow bg-opacity-50 bg-cover min-h-[1000px]">
-      <img
-        className="absolute -z-10 bg-cover"
-        src="./img/Hero-min.jpg"
-        alt=""
-      />
+    <section className="flex bg-gradient-to-b from-slate-700/50 to-Yellow bg-opacity-50 bg-cover min-h-[100vh]">
+      <div
+        className="absolute -z-10 sm:bg-center bg-[-500px] "
+        style={{
+          backgroundImage: `url("./img/Hero-min.jpg")`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+          height: "100%",
+          zIndex: -10,
+          opacity: 0.5,
+        }}
+      ></div>
       <div
         data-aos="fade-right"
         className="md:pt-[250px] pt-[150px] pl-[50px] lg:pl-[100px] "
       >
-        <h1 className=" text-white font-sans  font-extrabold  mb-5 sm:w-[150] text-3xl lg:text-6xl">
+        <h1 className=" text-white font-sans  font-extrabold  mb-5 w-[200px] sm:w-full text-3xl lg:text-6xl">
           START <span className="text-Yellow">PLANTING?</span> START WITH
           <span className="text-Yellow"> OLATIVITY</span>
         </h1>
-        <p className="container font-semibold w-[310px] md:w-[750px] text-white text-lg md:text-xl ">
+        <p className="container font-semibold w-[200px] md:w-[750px] text-white text-lg md:text-xl ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
           quaerat praesentium, distinctio quia dignissimos officiis!
         </p>

@@ -36,12 +36,14 @@ function Game() {
                   src="./img/QrForm.png"
                   alt="Link Submit"
                 />
-                <a
-                  className="text-sm lg:text-2xl  "
-                  href="https://forms.gle/6Xy8EJkDZoGz1eyK8"
-                >
-                  https://forms.gle/6Xy8EJkDZoGz1eyK8
-                </a>
+                <div className="mx-2 mt-4 border-2 w-[85px] h-[40px] bg-Yellow border-black  rounded-full flex justify-center items-center ">
+                  <a
+                    href="https://bit.ly/olativity"
+                    className="hover:border-b-2 text-black hover:border-black font-bold text-base transition ease-in-out duration-500"
+                  >
+                    Click Me!
+                  </a>
+                </div>
               </div>
             </div>
           </div>

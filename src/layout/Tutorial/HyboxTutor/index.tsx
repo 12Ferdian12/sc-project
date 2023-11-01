@@ -10,7 +10,7 @@ function Hybox() {
             return (
               <div
                 data-aos={i % 2 == 0 ? "fade-right" : "fade-left"}
-                className="my-5 mx-auto p-4 border-2 w-11/12 bg-Brown2 text-Yellow border-black shadow-xl rounded-2xl "
+                className="my-5 mx-auto p-4 border-2 lg:w-1/2 bg-Brown2 text-Yellow border-black shadow-xl rounded-2xl "
                 key={i}
               >
                 <div className="text-black justify-center items-center border-r border-b bg-Yellow border-Yellow max-w-[50px] rounded-2xl">

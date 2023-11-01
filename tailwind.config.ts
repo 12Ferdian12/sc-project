@@ -20,7 +20,7 @@ const config: Config = {
       },
       colors: {
         Brown2: "#5D2410",
-        Green: "#466D5C",
+        Green: "#61876E",
         Yellow: "#FFCF7B",
         Cream: "#EDE1D1",
         BB: "#3A240D",

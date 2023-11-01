@@ -7,7 +7,7 @@ function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
-    <nav className="sticky p-7 top-0 justify-between items-center z-50 flex bg-Brown2 border-b-2 border-Yellow h-[100px]">
+    <nav className="sticky p-7 top-0 justify-between items-center z-50 flex bg-Green border-b-2 border-Yellow h-[100px]">
       <div className="bg-white border-2 border-Yellow rounded-full">
         <Link href="/">
           <img
@@ -47,7 +47,7 @@ function Navbar() {
           <li className="mx-2">
             <a
               href={"/#about"}
-              className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+              className="hover:border-b-2 text-white hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
             >
               About
             </a>

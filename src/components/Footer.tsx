@@ -1,5 +1,7 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa6";
+import { SiShopee } from "react-icons/si";
+import { BiLogoGmail } from "react-icons/bi";
 
 function Footer() {
   return (
@@ -26,9 +28,19 @@ function Footer() {
             <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center">
               Buy Our Product
             </h1>
-            <div className="########">
-              <a href="">....@gmail.com</a>
-              <a href="">+62</a>
+            <div className="flex justify-center items-center">
+              <a
+                className=""
+                href="https://www.tokopedia.com/olativity?utm_source=salinlink&utm_medium=share&utm_campaign=Shop-234040852-16507904-081023-contextual_image&_branch_match_id=1221394042606513497&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWL69KNy5LLUvxckkCAGKT7PgiAAAA"
+              >
+                <img src="/img/TOKPED.svg" alt="" />
+              </a>
+              <a
+                className=""
+                href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
+              >
+                <SiShopee size={33} />
+              </a>
             </div>
           </div>
         </div>
@@ -66,15 +78,25 @@ function Footer() {
             <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center">
               Buy Our Product
             </h1>
-            <div className="########">
-              <a href="">....@gmail.com</a>
-              <a href="">+62</a>
+            <div className="flex justify-center items-center">
+              <a
+                className=""
+                href="https://www.tokopedia.com/olativity?utm_source=salinlink&utm_medium=share&utm_campaign=Shop-234040852-16507904-081023-contextual_image&_branch_match_id=1221394042606513497&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8nPzi9ITclM1MvJzMvWL69KNy5LLUvxckkCAGKT7PgiAAAA"
+              >
+                <img src="/img/TOKPED.svg" alt="" />
+              </a>
+              <a
+                className=""
+                href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
+              >
+                <FaTiktok size={33} />
+              </a>
             </div>
           </div>
         </div>
 
         <div className=" p-2">
-          <p className="font-">
+          <p className="">
             Jl.Wijaya Kusuma No.48, Kec.Genteng, Suarabaya, Jawa Timur 60272
           </p>
           <a className="font-bold" href="mailto:olativity@gmail.com">

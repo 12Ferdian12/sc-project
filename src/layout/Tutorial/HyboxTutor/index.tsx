@@ -9,7 +9,7 @@ function Hybox() {
           {HyboxList.map((Hybox, i) => {
             return (
               <div
-                data-aos={i % 2 == 0 ? "fade-right" : "fade-left"}
+                data-aos={"fade-right"}
                 className="my-5 mx-auto p-4 border-2 lg:w-1/2 bg-Brown2 text-Yellow border-black shadow-xl rounded-2xl "
                 key={i}
               >
@@ -30,9 +30,10 @@ function Hybox() {
                         alt=""
                       />
                     </div>
-                    <div className="text-2xl font-semibold">
-                      {Hybox.description}
-                    </div>
+                    <div
+                      className="text-2xl font-semibold"
+                      dangerouslySetInnerHTML={{ __html: Hybox.description }}
+                    ></div>
                   </div>
                 </div>
               </div>

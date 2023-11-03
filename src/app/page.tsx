@@ -13,6 +13,7 @@ import {
   openLoadingModal,
 } from "@/redux/reducer/loadingModalReducer";
 import Game from "@/layout/game";
+import TutorSection from "@/layout/TutorSection";
 
 export const metadata: Metadata = {
   title: "Olativity",
@@ -31,6 +32,7 @@ export default function Home() {
         <About />
         <Product />
         {/* <Game /> */}
+        <TutorSection />
       </main>
       <Footer />
     </>

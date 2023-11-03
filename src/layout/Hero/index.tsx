@@ -16,7 +16,7 @@ function Hero() {
       <div
         className="absolute -z-10 sm:bg-center bg-[-500px] "
         style={{
-          backgroundImage: `url("./img/FotoKerenFerdi.jpg")`,
+          backgroundImage: `url("./img/FotoKerenFerdi-min.jpg")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",

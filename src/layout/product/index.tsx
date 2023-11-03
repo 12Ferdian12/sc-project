@@ -5,7 +5,7 @@ import React from "react";
 
 function Product() {
   return (
-    <section id="product" className="bg-Semen   min-h-[750px]">
+    <section id="product" className="bg-Semen min-h-[750px]">
       {/* Laptop View */}
       <div data-aos="fade-right" className="hidden lg:block px-10 pt-12">
         <h1

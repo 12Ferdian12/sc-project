@@ -9,15 +9,15 @@ interface hybox {
 export const HyboxList: hybox[] = [
   {
     title: "Persiapan",
-    description:
-      "Siapkan alat dan bahan: \n-Rockwool \n-Benih Sawi Pakcoy \n-Air \n-Wadah \n-Kit Hybox .",
+    description: `Siapkan alat dan bahan: 
+      <br>-Rockwool <br>-Benih Sawi Pakcoy <br>-Air <br>-Wadah <br>-Kit Hybox .`,
     image: "/img/testing.jpeg",
   },
   {
     title: "Pembasahan Rockwool & Pembenihan",
     description:
       "Basahi rockwool agar proses pembibitan dapat dilakukan tanpa menggunakan tanah. Lalu masukkan benih ke-dalam rockwool ",
-    image: "path/to/image2.jpg",
+    image: "/img/pembibitan.jpeg",
   },
   {
     title: "Penempatan Benih",

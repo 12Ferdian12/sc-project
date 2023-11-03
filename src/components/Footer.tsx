@@ -3,7 +3,7 @@ import { FaTiktok } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="bg-Brown2 bottom-0 px-3 pb-3 pt-5 text-Yellow border-t-2 border-Yellow">
+    <footer className="bg-BB bottom-0 px-3 pb-3 pt-5 text-Yellow border-t-2 border-Yellow">
       <div className="hidden md:flex md:flex-col space-y-0 md:space-y-6 ">
         <div className="flex-row space-y-5 md:space-y-0 justify-around md:flex">
           <div className="">
@@ -17,10 +17,7 @@ function Footer() {
               >
                 <AiFillInstagram size={35} />
               </a>
-              <a
-                className=""
-                href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
-              >
+              <a className="" href="https://www.tiktok.com/@olativitysc">
                 <FaTiktok size={33} />
               </a>
             </div>

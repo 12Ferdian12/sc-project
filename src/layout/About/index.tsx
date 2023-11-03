@@ -7,7 +7,10 @@ function About() {
   const [stateAbout, setStateAbout] = useState("ferdi");
 
   return (
-    <section id="about" className="bg-Yellow py-10">
+    <section
+      id="about"
+      className="bg-Semen border-t-4 border-black py-10 lg:min-h-[700px]"
+    >
       <div className="flex-col-reverse flex w-full lg:flex-row">
         <div className="flex-col px-10 pt-12 w-full lg:w-1/2">
           <h1
@@ -67,7 +70,7 @@ function About() {
 export default About;
 
 function ferdi() {
-  return <>Saya itu Fans Lord GALANG</>;
+  return <>P BALAP</>;
 }
 
 function ganteng() {
@@ -88,8 +91,13 @@ function ganteng() {
 function banget() {
   return (
     <>
-      Di Section Ganteng itu Ucapan Fikri Manggala atau Purchasing yang selalu
-      omel ke Saya
+      jumlah petani di Indonesia terus berkurang meskipun dikenal sebagai negara
+      agraris. Seperti contohnya petani Jawa Barat yang paling banyak berada di
+      rentan usia 45 - 49 tahun yaitu sebanyak 36,30%. Sementara, petani berusia
+      30 - 44 hanya 24,06%. Menurunnya minat petani disebabkan karena generasi
+      muda tidak melihat adanya potensi pada sektor pertanian. Hal ini membuat
+      kami sadar untuk melakukan tindakan dan mencegah menurunnya petani -
+      petani muda di Indonesia
     </>
   );
 }

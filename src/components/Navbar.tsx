@@ -7,8 +7,8 @@ function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
-    <nav className="sticky p-7 top-0 justify-between items-center z-50 flex bg-Green border-b-2 border-Yellow h-[100px]">
-      <div className="bg-white border-2 border-Yellow rounded-full">
+    <nav className="sticky p-7 top-0 justify-between items-center z-50 flex bg-Green border-b-4 border-Brown2 h-[100px]">
+      <div className="bg-white border-2 border-Brown2 rounded-full">
         <Link href="/">
           <img
             src="img/Logo.png"
@@ -47,7 +47,7 @@ function Navbar() {
           <li className="mx-2">
             <a
               href={"/#about"}
-              className="hover:border-b-2 text-white hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+              className="hover:border-b-2 text-white hover:border-white px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
             >
               About
             </a>
@@ -55,7 +55,7 @@ function Navbar() {
           <li className="mx-2">
             <a
               href="/#product"
-              className="hover:border-b-2 text-Yellow hover:border-Yellow px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
+              className="hover:border-b-2 text-white hover:border-white px-[4px] py-[3px] font-bold text-base transition ease-in-out duration-500"
             >
               Product
             </a>

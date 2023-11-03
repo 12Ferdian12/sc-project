@@ -12,11 +12,11 @@ function Hero() {
   }, [isMobile]);
 
   return (
-    <section className="flex bg-gradient-to-b from-slate-700/50 to-Yellow bg-opacity-50 bg-cover min-h-[100vh]">
+    <section className="flex bg-gradient-to-b from-slate-700/50 to-Coklat bg-opacity-50 bg-cover min-h-[100vh]">
       <div
         className="absolute -z-10 sm:bg-center bg-[-500px] "
         style={{
-          backgroundImage: `url("./img/Hero-min.jpg")`,
+          backgroundImage: `url("./img/FotoKerenFerdi.jpg")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",
@@ -29,13 +29,13 @@ function Hero() {
         data-aos="fade-right"
         className="md:pt-[250px] pt-[150px] pl-[50px] lg:pl-[100px] "
       >
-        <h1 className=" text-white font-sans font-outline-1 font-extrabold  mb-5 w-[200px] sm:w-full text-3xl lg:text-6xl">
+        <h1 className=" text-white font-sans font-outline-2 font-extrabold  mb-5 w-[200px] sm:w-full text-3xl lg:text-6xl">
           START <span className="text-Green ">PLANTING?</span>
           START WITH
           <span className="text-Brown2 "> OLATIVITY</span>
         </h1>
-        <p className="container font-semibold w-[200px] md:w-[750px] text-white text-lg md:text-xl ">
-          Masa dutahun yang akan datang akan terjadi berbakai krisis, oleh
+        <p className="container px-4 border-2 border-black bg-Brown2 rounded-3xl font-semibold w-[250px] md:w-[750px] text-Yellow text-lg md:text-lg ">
+          Masa dua tahun yang akan datang akan terjadi berbakai krisis, oleh
           karena itu dengan cara melestarikan tanaman dan tumbuhan maka akan
           mencegah hal tersebut terjadi. Maka Ayo Bersama kami melakukan
           perubahan dunia dengan cara menanam pohon.

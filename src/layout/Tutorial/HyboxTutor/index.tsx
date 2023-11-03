@@ -4,7 +4,7 @@ import { HyboxList } from "@/components/data/tutorialData";
 function Hybox() {
   return (
     <>
-      <section className="min-h-[80vh] bg-Yellow">
+      <section className="min-h-[80vh] bg-Semen">
         <div className="px-5  py-5 space-y-5">
           {HyboxList.map((Hybox, i) => {
             return (

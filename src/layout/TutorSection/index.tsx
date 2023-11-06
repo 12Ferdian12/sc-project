@@ -11,9 +11,9 @@ function TutorSection() {
         <h1
           className={`${leagueSpartan.className} text-4xl border-b-4 w-full border-black font-bold`}
         >
-          "Let's Start Planting"
+          Let's Start Planting
         </h1>
-        <div className="flex flex-col md:flex-row space-x-5">
+        <div className="flex flex-col md:flex-row md:space-x-5">
           {HyboxList.map((Hybox, i) => {
             if (i < 2)
               return (

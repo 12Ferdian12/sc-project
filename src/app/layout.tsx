@@ -31,7 +31,7 @@ export default function RootLayout({
       className="scroll-smooth scrollbar-thin scrollbar-thumb-Yellow scrollbar-track-Brown2 "
     >
       <Provider store={store}>
-        <body className={inter.className}>
+        <body>
           <LoadingModal />
           {children}
         </body>

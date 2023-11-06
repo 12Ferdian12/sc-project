@@ -16,7 +16,7 @@ function Product() {
         <div className="flex">
           <div className="mt-5 text-black   w-[700px] p-2  rounded-lg">
             <h1 className="text-3xl font-bold">Description:</h1>
-            <p className="text-2xl py-7 font-medium w-[600px]">
+            <p className="text-2xl py-7  font-medium w-[600px]">
               Hybox merupakan perangkat menanam yang dirancang khusus untuk
               mempermudah proses penanaman benih tumbuhan yang berukuran kecil
               sampai sedang sehingga dapat lebih efisien dan maksimal bagi
@@ -45,7 +45,7 @@ function Product() {
             <h1 className="pt-5 text-2xl border-b-2 border-Yellow font-bold">
               Description:
             </h1>
-            <p>
+            <p className="font-bold">
               Hybox merupakan perangkat menanam yang dirancang khusus untuk
               mempermudah proses penanaman benih tumbuhan yang berukuran kecil
               sampai sedang sehingga dapat lebih efisien dan maksimal bagi

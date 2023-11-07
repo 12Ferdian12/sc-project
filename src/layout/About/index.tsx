@@ -70,7 +70,19 @@ function About() {
 export default About;
 
 function ferdi() {
-  return <>P BALAP</>;
+  return (
+    <>
+      Olativity Student Company merupakan Perusahaan Siswa berasal dari sekolah
+      SMA Negeri 2 Surabaya, terletak pada Jl. Wijaya Kusuma No. 48, Ketabang.
+      Kec. Genteng, Kota Surabaya, Jawa Timur. Perusahaan siswa ini di bentuk
+      pada hari Jumat, tanggal 25, bulan agustus, 2023 hasil kerja sama antara
+      sekolah dengan Prestasi Junior indonesia dan disponsori oleh Zurich
+      Foundation, dengan tujuan utama perusahaan OLATIvity yang ingin mendukung
+      penuh kegiatan peduli lingkungan agar dapat membuat bumi kita nyaman dan
+      aman untuk di tinggali dengan menggunakan pemanfaatan bahan yang ada di
+      sekitar kita{" "}
+    </>
+  );
 }
 
 function ganteng() {

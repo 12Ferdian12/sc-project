@@ -16,31 +16,31 @@ export const HyboxList: hybox[] = [
   {
     title: "Pembasahan Rockwool & Pembenihan",
     description:
-      "Basahi rockwool agar proses pembibitan dapat dilakukan tanpa menggunakan tanah. Lalu masukkan benih ke-dalam rockwool ",
+      "Basahi Rockwool dengan sedikit air agar proses pembibitan dapat dilakukan dengan lebih mudah. Lalu, beri lubang kecil di tengah Rockwool dan masukkan benih kedalamnya      ",
     image: "/img/pembibitan.jpeg",
   },
   {
     title: "Penempatan Benih",
     description:
-      "Masukkan benih yang sudah berada di dalam rockwool basah ke dalam ruangan yang gelap. Agar benih dapat menumbuhkan kecambah dengan baik",
+      "Setalah itu taruh Rockwool yang berisi benih di ruangan atau tempat yang gelap dan lembab, agar benih dapat menumbuhkan kecambah. Simpan dalam ruangan atau tempat itu selama 24 jam.",
     image: "path/to/image3.jpg",
   },
   {
     title: "Masa Semai",
     description:
-      "Pindahkan benih  yang sudah muncul kecambah ke tempat yang terkena cahaya matahari, agar tanaman dapat memulai proses fotosintesis. Amati tanaman dan beri air yang dicampur nutrisi A dan B yang cukup selama 8 - 10 hari. ",
+      "Setelah itu, pindahkan benih yang sudah tumbuh kecambah ke tempat yang terkena sinar matahari. Pastikan Rockwool tetap basah tapi tidak menggenang airnya",
     image: "path/to/image4.jpg",
   },
   {
     title: "Proses Pendewasaan ",
     description:
-      "Pindahkan tanaman ke HyBox, lalu tuangkan nutrisi A dan B ke dalam HyBox. Nutrisi tersebut merupakan pengganti mineral dari tanah, ini dapat membuat tanaman dapat ditanam dalam keadaan baik meskipun tanpa tanah. Amati dan rawat tanaman selama 4 - 14 hari.  ",
+      "Setelah tanaman tumbuh daun sejati (daun ke 4), siapkan pot HyBox dengan sedikit air (disarankan air AC) dan campurkan sedikit pupuk A dan B kedalamnya. Pupuk tersebut berperan sebagai pengganti mineral dari tanah. Setelah itu letakkan Rockwool yang berisi tanaman ke dalam netpot HyBox, tunggu selama paling lama 14 hari. Jangan lupa, setiap harinya untuk mengaduk air yang ada di dalam pot agar nutrisi tidak mengendap di bawah.  ",
     image: "path/to/image5.jpg",
   },
   {
     title: "Masa Panen",
     description:
-      "Cabutlah tanaman yang sudah tumbuh dewasa dari HyBox lalu bersihkan netpot agar dapat digunakan kembali. ",
+      "Jika sudah panen, potong tanaman lalu bersihkan netpot dari HyBox. Setelah itu kalian bisa menanam lagi dengan bibit dan Rockwool yang disediakan oleh Hybox ",
     image: "path/to/image6.jpg",
   },
 ];

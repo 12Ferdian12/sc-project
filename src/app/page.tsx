@@ -14,6 +14,10 @@ import {
 } from "@/redux/reducer/loadingModalReducer";
 import Game from "@/layout/game";
 import TutorSection from "@/layout/TutorSection";
+import SignIn from "@/components/Authentication/signin";
+import signUp from "@/utils/firebase/auth/signup";
+import { useAuthContext } from "@/utils/firebase/AuthContext";
+import { useRouter } from "next/router";
 
 export const metadata: Metadata = {
   title: "Olativity",
@@ -33,6 +37,7 @@ export default function Home() {
         <Product />
         {/* <Game /> */}
         <TutorSection />
+        {/* <SignIn /> */}
       </main>
       <Footer />
     </>

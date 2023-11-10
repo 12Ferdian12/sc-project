@@ -29,13 +29,13 @@ export const HyboxList: hybox[] = [
     title: "Masa Semai",
     description:
       "Setelah itu, pindahkan benih yang sudah tumbuh kecambah ke tempat yang terkena sinar matahari. Pastikan Rockwool tetap basah tapi tidak menggenang airnya",
-    image: "path/to/image4.jpg",
+    image: "/img/pertumbuhan2.jpeg",
   },
   {
     title: "Proses Pendewasaan ",
     description:
       "Setelah tanaman tumbuh daun sejati (daun ke 4), siapkan pot HyBox dengan sedikit air (disarankan air AC) dan campurkan sedikit pupuk A dan B kedalamnya. Pupuk tersebut berperan sebagai pengganti mineral dari tanah. Setelah itu letakkan Rockwool yang berisi tanaman ke dalam netpot HyBox, tunggu selama paling lama 14 hari. Jangan lupa, setiap harinya untuk mengaduk air yang ada di dalam pot agar nutrisi tidak mengendap di bawah.  ",
-    image: "path/to/image5.jpg",
+    image: "/img/proses-masa-dewasa.jpeg",
   },
   {
     title: "Masa Panen",

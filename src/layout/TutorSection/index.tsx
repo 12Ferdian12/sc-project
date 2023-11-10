@@ -3,6 +3,8 @@
 import { HyboxList } from "@/components/data/tutorialData";
 import { leagueSpartan } from "@/app/layout";
 import React from "react";
+import Link from "next/link";
+import tutorialPage from "@/app/Tutorial/page";
 
 function TutorSection() {
   return (
@@ -49,10 +51,12 @@ function TutorSection() {
           })}
         </div>
         <button
-          className="transition mx-auto z-10 ease-in-out delay-150 shadow-xl hover:-translate-y-1 hover:scale-110 hover:bg-Yellow border-2 w-[95px] h-[50px] bg-Yellow border-black rounded-full flex items-center justify-center"
+          className="transition mx-auto z-10 ease-in-out delay-150 shadow-xl hover:-translate-y-1 hover:scale-110 hover:bg-Yellow border-2 w-[95px] h-[50px] md:w-1/2 bg-Yellow border-black rounded-full flex items-center justify-center"
           type="button"
         >
-          <p className="font-bold">Read more</p>
+          <Link href="/Tutorial" className="font-bold">
+            Read more
+          </Link>
         </button>
       </div>
     </section>

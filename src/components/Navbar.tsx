@@ -1,15 +1,42 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import React, { useState, useEffect } from "react";
 
-function Navbar() {
+const Navbar = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+    if (currentScrollPos > prevScrollPos) {
+      setVisible(false);
+    } else {
+      setVisible(true);
+    }
+
+    setPrevScrollPos(currentScrollPos);
+    console.log(currentScrollPos, prevScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
 
   return (
-    <nav className="sticky top-0 z-50 flex bg-Green flex-col border-b-4 border-Brown2 h-full">
+    <nav
+      className={`sticky z-50 flex
+        transition ease-in-out duration-500
+      ${
+        visible ? "top-0" : ""
+      } bg-Green flex-col border-b-4 border-Brown2 h-full`}
+    >
       <div className="justify-between items-center flex p-7">
         <div className="bg-white border-2 border-Brown2 rounded-full">
           <Link href="/">
@@ -121,6 +148,6 @@ function Navbar() {
       </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;

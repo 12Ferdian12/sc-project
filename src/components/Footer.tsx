@@ -6,6 +6,7 @@ import { BiLogoGmail } from "react-icons/bi";
 function Footer() {
   return (
     <footer className="bg-BB bottom-0 px-3 pb-3 pt-5 text-Yellow border-t-2 border-Yellow">
+      {/* Mobile View */}
       <div className="hidden md:flex md:flex-col space-y-0 md:space-y-6 ">
         <div className="flex-row space-y-5 md:space-y-0 justify-around md:flex">
           <div className="">
@@ -35,10 +36,7 @@ function Footer() {
               >
                 <img src="/img/TOKPED.svg" alt="" />
               </a>
-              <a
-                className=""
-                href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
-              >
+              <a className="" href="https://shopee.co.id/olativity">
                 <SiShopee size={33} />
               </a>
             </div>
@@ -53,7 +51,7 @@ function Footer() {
           </a>
         </div>
       </div>
-
+      {/* Mobile View */}
       <div className="flex-col md:hidden space-y-0 md:space-y-6 text-center">
         <div className="flex flex-col justify-center items-center">
           <h1 className="border-b-2 mb-2 w-[150px] font-semibold border-Yellow text-center ">
@@ -66,10 +64,7 @@ function Footer() {
             >
               <AiFillInstagram size={35} />
             </a>
-            <a
-              className=""
-              href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
-            >
+            <a className="" href="https://www.tiktok.com/@olativitysc">
               <FaTiktok size={33} />
             </a>
           </div>
@@ -85,11 +80,8 @@ function Footer() {
               >
                 <img src="/img/TOKPED.svg" alt="" />
               </a>
-              <a
-                className=""
-                href="https://www.instagram.com/olativity.sc/?igshid=MmU2YjMzNjRlOQ%3D%3D"
-              >
-                <FaTiktok size={33} />
+              <a className="" href="https://shopee.co.id/olativity">
+                <SiShopee size={33} />
               </a>
             </div>
           </div>

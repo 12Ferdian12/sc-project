@@ -55,11 +55,11 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="flex justify-center w-full lg:w-1/2">
+        <div className="flex my-auto px-10 justify-center w-full lg:w-1/2">
           <img
-            className=" w-[500px] h-[500px]"
-            src="./img/SC.png"
-            alt="Ferdi Guanteng"
+            className=" w-full  md:w-[600px] border border-black rounded-lg shadow-2xl md:h-[350px]"
+            src="./img/1GangSC.jpg"
+            alt="Anggota Olativity"
           />
         </div>
       </div>
@@ -72,15 +72,13 @@ export default About;
 function ferdi() {
   return (
     <>
-      Olativity Student Company merupakan Perusahaan Siswa berasal dari sekolah
-      SMA Negeri 2 Surabaya, terletak pada Jl. Wijaya Kusuma No. 48, Ketabang.
-      Kec. Genteng, Kota Surabaya, Jawa Timur. Perusahaan siswa ini di bentuk
-      pada hari Jumat, tanggal 25, bulan agustus, 2023 hasil kerja sama antara
-      sekolah dengan Prestasi Junior indonesia dan disponsori oleh Zurich
-      Foundation, dengan tujuan utama perusahaan OLATIvity yang ingin mendukung
-      penuh kegiatan peduli lingkungan agar dapat membuat bumi kita nyaman dan
-      aman untuk di tinggali dengan menggunakan pemanfaatan bahan yang ada di
-      sekitar kita{" "}
+      Olativity Student Company merupakan perusahaan siswa yang berasal dari
+      sekolah SMA Negeri 2 Surabaya. Perusahaan ini adalah hasil kerja sama
+      antara sekolah dengan Prestasi Junior indonesia dan disponsori oleh Zurich
+      Foundation dengan tujuan utama perusahaan Olativity SC yang ingin
+      mendukung penuh kegiatan peduli lingkungan agar dapat membuat bumi kita
+      nyaman dan aman untuk di tinggali dengan menggunakan pemanfaatan bahan
+      yang ada di sekitar kita.
     </>
   );
 }
@@ -88,14 +86,14 @@ function ferdi() {
 function ganteng() {
   return (
     <>
-      OLATIVITY Student Company merupakan perusahaan siswa yang berasal dari
-      sekolah SMA Negeri 2 Surabaya, terletak pada Jl. Wijaya Kusuma No. 48,
-      Ketabang. Kec. Genteng, Kota Surabaya, Jawa Timur. Perusahaan siswa ini di
-      bentuk pada hari Jumat, tanggal 25 bulan Agustus, 2023 hasil kerja sama
-      antara sekolah dengan Prestasi Junior indonesia dan disponsori oleh Zurich
-      Foundation, dengan tujuan utama perusahaan OLATIVITY yang ingin mendukung
-      penuh kegiatan peduli lingkungan agar dapat membuat bumi kita nyaman dan
-      aman untuk di tinggali dengan menciptakan inovasi yang bermanfaat.
+      Olativity Student Company ini adalah perusahaan siswa yang di bentuk pada
+      hari Jumat, tanggal 25 Agustus, 2023. Olativity SC terletak pada Jl.
+      Wijaya Kusuma No. 48, Ketabang. Kec. Genteng, Kota Surabaya, Jawa Timur.
+      Perusahaan ini adalah hasil kerja sama antara sekolah dengan Prestasi
+      Junior indonesia dan disponsori oleh Zurich Foundation, dengan tujuan
+      utama perusahaan Olatvity yang ingin mendukung penuh kegiatan peduli
+      lingkungan agar dapat membuat bumi kita nyaman dan aman untuk di tinggali
+      dengan menggunakan pemanfaatan bahan yang ada di sekitar kita.
     </>
   );
 }
@@ -103,7 +101,7 @@ function ganteng() {
 function banget() {
   return (
     <>
-      jumlah petani di Indonesia terus berkurang meskipun dikenal sebagai negara
+      Jumlah petani di Indonesia terus berkurang meskipun dikenal sebagai negara
       agraris. Seperti contohnya petani Jawa Barat yang paling banyak berada di
       rentan usia 45 - 49 tahun yaitu sebanyak 36,30%. Sementara, petani berusia
       30 - 44 hanya 24,06%. Menurunnya minat petani disebabkan karena generasi

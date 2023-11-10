@@ -3,6 +3,7 @@
 import LoadingModal from "@/components/loadingModal";
 import React, { useEffect } from "react";
 import { useMediaQuery } from "@/hooks";
+import { poppins } from "@/app/layout";
 
 function Hero() {
   const isMobile = useMediaQuery("(max-width: 768px)");
@@ -12,7 +13,7 @@ function Hero() {
   }, [isMobile]);
 
   return (
-    <section className="flex bg-gradient-to-b from-slate-700/50 to-Coklat bg-opacity-50 bg-cover min-h-[100vh]">
+    <section className="flex bg-gradient-to-b from-slate-700/50 to-Coklat min-h-[100vh]  md:min-h-[60vh] bg-opacity-50 bg-cover lg:min-h-[100vh]">
       <div
         className="absolute -z-10 sm:bg-center bg-[-500px] "
         style={{
@@ -29,7 +30,9 @@ function Hero() {
         data-aos="fade-right"
         className="md:pt-[250px] pt-[150px] pl-[50px] lg:pl-[100px] "
       >
-        <h1 className=" text-white font-sans font-outline-2 font-extrabold  mb-5 w-[200px] sm:w-full text-3xl lg:text-6xl">
+        <h1
+          className={`text-white ${poppins}  font-outline-2 font-extrabold  mb-5 w-[200px] sm:w-full md:text-6xl text-3xl lg:text-6xl`}
+        >
           START <span className="text-Green ">PLANTING?</span>
           START WITH
           <span className="text-Brown2 "> OLATIVITY</span>

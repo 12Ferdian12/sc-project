@@ -16,7 +16,7 @@ function Product() {
         <div className="flex">
           <div className="mt-5 text-black   w-[700px] p-2  rounded-lg">
             <h1 className="text-3xl font-bold">Description:</h1>
-            <p className="text-2xl py-7  font-medium w-[600px]">
+            <p className="text-2xl py-5  font-medium w-[600px]">
               Hybox merupakan perangkat menanam yang dirancang khusus untuk
               mempermudah proses penanaman benih tumbuhan yang berukuran kecil
               sampai sedang sehingga dapat lebih efisien dan maksimal bagi
@@ -24,11 +24,13 @@ function Product() {
               ataupun hanya memiliki lahan yang sangat terbatas
             </p>
           </div>
-          <img
-            className="ml-24 mt-5 border border-black rounded w-full h-[400px]"
-            src="./img/testing.jpeg"
-            alt="Hybox"
-          />
+          <div className="flex my-auto mx-auto justify-center w-full lg:w-1/4">
+            <img
+              className=" w-[550px] border border-black rounded-lg shadow-2xl h-[300px]"
+              src="./img/FotoProduk.jpg"
+              alt="Anggota Olativity"
+            />
+          </div>
         </div>
       </div>
       <div className="lg:hidden pb-5 px-10 pt-12">
@@ -36,10 +38,10 @@ function Product() {
           TANAMAN HIDROPONIK
         </h1>
         <div className="pt-5 text-Yellow ">
-          <div className="py-5 px-5 bg-Brown2 border border-black rounded">
+          <div className="py-5 px-5 bg-Brown2 border border-black rounded-2xl">
             <img
-              className=" mx-auto w-full h-[150px]"
-              src="./img/testing.jpeg"
+              className=" mx-auto w-20% h-[150px]"
+              src="./img/FotoProduk.jpg"
               alt=""
             />
             <h1 className="pt-5 text-2xl border-b-2 border-Yellow font-bold">

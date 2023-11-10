@@ -9,7 +9,7 @@ import LoadingModal from "@/components/loadingModal";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-// import { AuthContextProvider } from "@/utils/firebase/AuthContext";
+import { AuthContextProvider } from "@/utils/firebase/AuthContext";
 
 const inter = Inter({ subsets: ["latin"] });
 export const leagueSpartan = League_Spartan({ subsets: ["latin"] });
@@ -37,10 +37,10 @@ export default function RootLayout({
     >
       <Provider store={store}>
         <body>
-          {/* <AuthContextProvider> */}
-          <LoadingModal />
-          {children}
-          {/* </AuthContextProvider> */}
+          <AuthContextProvider>
+            <LoadingModal />
+            {children}
+          </AuthContextProvider>
         </body>
       </Provider>
     </html>

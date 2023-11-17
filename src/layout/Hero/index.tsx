@@ -7,10 +7,10 @@ import { poppins } from "@/app/layout";
 
 function Hero() {
   const isMobile = useMediaQuery("(max-width: 768px)");
-
-  useEffect(() => {
-    console.log("isMobile", isMobile);
-  }, [isMobile]);
+  console.log(poppins);
+  // useEffect(() => {
+  //   console.log("isMobile", isMobile);
+  // }, [isMobile]);
 
   return (
     <section className="flex bg-gradient-to-b from-slate-700/50 to-Coklat min-h-[100vh]  md:min-h-[60vh] bg-opacity-50 bg-cover lg:min-h-[100vh]">
@@ -31,7 +31,7 @@ function Hero() {
         className="md:pt-[250px] pt-[150px] pl-[50px] lg:pl-[100px] "
       >
         <h1
-          className={`text-white ${poppins}  font-outline-2 font-extrabold  mb-5 w-[200px] sm:w-full md:text-6xl text-3xl lg:text-6xl`}
+          className={`text-white ${poppins.className}  font-outline-2 font-extrabold  mb-5 w-[200px] sm:w-full md:text-6xl text-3xl lg:text-6xl`}
         >
           START <span className="text-Green ">PLANTING?</span>
           START WITH

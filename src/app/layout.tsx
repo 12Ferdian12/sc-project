@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const leagueSpartan = League_Spartan({ subsets: ["latin"] });
 export const poppins = Poppins({
   subsets: ["latin"],
-  weight: "100",
+  weight: "800",
 });
 
 export default function RootLayout({

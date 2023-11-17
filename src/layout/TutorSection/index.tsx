@@ -50,14 +50,14 @@ function TutorSection() {
               );
           })}
         </div>
-        <button
-          className="transition mx-auto z-10 ease-in-out delay-150 shadow-xl hover:-translate-y-1 hover:scale-110 hover:bg-Yellow border-2 w-[95px] h-[50px] md:w-1/2 bg-Yellow border-black rounded-full flex items-center justify-center"
-          type="button"
-        >
-          <Link href="/Tutorial" className="font-bold">
+        <Link href="/Tutorial" className="font-bold">
+          <button
+            className="transition mx-auto z-10 ease-in-out delay-150 shadow-xl hover:-translate-y-1 hover:scale-110 hover:bg-Yellow border-2 w-[95px] h-[50px] md:w-1/2 bg-Yellow border-black rounded-full flex items-center justify-center"
+            type="button"
+          >
             Read more
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </section>
   );

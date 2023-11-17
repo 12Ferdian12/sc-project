@@ -18,7 +18,7 @@ function Page() {
     }
 
     // else successful
-    console.log(result);
+    // console.log(result);
     return router.push("/admin");
   };
 

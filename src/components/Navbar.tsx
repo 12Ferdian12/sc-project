@@ -17,7 +17,7 @@ const Navbar = () => {
     }
 
     setPrevScrollPos(currentScrollPos);
-    console.log(currentScrollPos, prevScrollPos);
+    // console.log(currentScrollPos, prevScrollPos);
   };
 
   useEffect(() => {

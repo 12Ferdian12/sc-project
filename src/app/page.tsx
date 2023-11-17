@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/layout/Hero";
 import type { Metadata } from "next";
-
+import CountDownTimer from "@/layout/CountDown";
 import About from "@/layout/About";
 import Product from "@/layout/product";
 import { useDispatch } from "@/hooks";
@@ -37,6 +37,7 @@ export default function Home() {
         <Product />
         {/* <Game /> */}
         <TutorSection />
+        <CountDownTimer days={8} hours={23} minutes={55} seconds={41} />
         {/* <SignIn /> */}
       </main>
       <Footer />

@@ -40,12 +40,21 @@ const CountDownTimer = ({
   }, []);
 
   return (
-    <div className="flex w-full justify-center py-10">
-      <Countdown prev={0} count={remainTime.days} label={"days"} />
-      <Countdown prev={0} count={remainTime.hours} label={"hours"} />
-      <Countdown prev={0} count={remainTime.minutes} label={"minutes"} />
-      <Countdown prev={0} count={remainTime.seconds} label={"seconds"} />
-    </div>
+    <section
+      className="h-[800px]"
+      style={{
+        backgroundImage: `url("./img/CBG.png")`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
+      <div className="flex w-full h-[60%] justify-center items-center py-10">
+        <Countdown prev={0} count={remainTime.days} label={"days"} />
+        <Countdown prev={0} count={remainTime.hours} label={"hours"} />
+        <Countdown prev={0} count={remainTime.minutes} label={"minutes"} />
+        <Countdown prev={0} count={remainTime.seconds} label={"seconds"} />
+      </div>
+    </section>
   );
 };
 

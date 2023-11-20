@@ -22,7 +22,10 @@ const Countdown = ({
 
   return (
     <div
-      className={cn(styles.countdown, "flex w-[100px] items-center flex-col")}
+      className={cn(
+        styles.countdown,
+        "flex w-[200px] h-[200px] items-center flex-col "
+      )}
     >
       <div className={styles.countdownBlockBackface}>
         <div className={cn(styles.countdownBlock)}>

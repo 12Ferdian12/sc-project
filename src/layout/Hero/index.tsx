@@ -14,6 +14,7 @@ function Hero() {
 
   return (
     <section className="flex bg-gradient-to-b from-slate-700/50 to-Coklat min-h-[100vh]  md:min-h-[60vh] bg-opacity-50 bg-cover lg:min-h-[100vh]">
+      {/* Height/ width Mobile Version */}
       <div
         className="absolute -z-10 sm:bg-center bg-[-500px] "
         style={{

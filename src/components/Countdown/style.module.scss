@@ -1,7 +1,10 @@
 .countdown {
   .countdownBlockBackface {
     position: relative;
-    width: 70px;
+    // ganti panjang di sini *
+    width: 120px;
+    // ganti panjang di sini *
+
     background: #191a23;
     border-radius: 8px;
     content: "";
@@ -15,8 +18,10 @@
     .countdownBlock {
       position: relative;
       font-weight: bold;
-      font-size: 36px;
-      line-height: 67px;
+      // ganti tinggi di sini *
+      font-size: 48px;
+      line-height: 96px;
+      // ganti tinggi di sini *
       text-align: center;
       letter-spacing: -1px;
       color: #ffcf7b;
@@ -149,10 +154,10 @@
 
   .label {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 24px;
     text-align: center;
     letter-spacing: 3px;
-    color: #8385a9;
+    color: #2e2e2e;
     margin-top: 9px;
   }
 }

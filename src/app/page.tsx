@@ -28,6 +28,24 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const currentDateTime = new Date();
+
+  // Define a custom date/time (e.g., December 1, 2023, at 12:00:00)
+  const customDateTime = new Date("2024-01-01T21  :00:00");
+
+  // Calculate the time difference in milliseconds
+  const timeDifferenceMs = customDateTime.getTime() - currentDateTime.getTime();
+
+  // Convert milliseconds to days, hours, minutes, and seconds
+  const daysDifference = Math.floor(timeDifferenceMs / (1000 * 60 * 60 * 24));
+  const hoursDifference = Math.floor(
+    (timeDifferenceMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  const minutesDifference = Math.floor(
+    (timeDifferenceMs % (1000 * 60 * 60)) / (1000 * 60)
+  );
+  const secondsDifference = Math.floor((timeDifferenceMs % (1000 * 60)) / 1000);
+
   return (
     <>
       <Navbar />
@@ -37,7 +55,12 @@ export default function Home() {
         <Product />
         {/* <Game /> */}
         <TutorSection />
-        <CountDownTimer days={8} hours={23} minutes={55} seconds={41} />
+        <CountDownTimer
+          days={daysDifference}
+          hours={hoursDifference}
+          minutes={minutesDifference}
+          seconds={secondsDifference}
+        />
         {/* <SignIn /> */}
       </main>
       <Footer />

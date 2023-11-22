@@ -11,7 +11,7 @@ export const HyboxList: hybox[] = [
     title: "Persiapan",
     description: `Siapkan alat dan bahan: 
       <br>-Rockwool <br>-Benih Sawi Pakcoy <br>-Air <br>-Wadah <br>-Kit Hybox .`,
-    image: "/img/testing.jpeg",
+    image: "/img/Persiapan.jpeg",
   },
   {
     title: "Pembasahan Rockwool & Pembenihan",

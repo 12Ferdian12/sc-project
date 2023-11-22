@@ -31,7 +31,7 @@ export default function Home() {
   const currentDateTime = new Date();
 
   // Define a custom date/time (e.g., December 1, 2023, at 12:00:00)
-  const customDateTime = new Date("2024-01-01T21  :00:00");
+  const customDateTime = new Date("2024-01-01T21:00:00");
 
   // Calculate the time difference in milliseconds
   const timeDifferenceMs = customDateTime.getTime() - currentDateTime.getTime();

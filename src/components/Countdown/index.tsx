@@ -28,7 +28,7 @@ const Countdown = ({
       )}
     >
       <div className={styles.countdownBlockBackface}>
-        <div className={cn(styles.countdownBlock)}>
+        <div className={cn(styles.countdownBlock, "w-[100px]   md:w-[120px]")}>
           <div className={cn(styles.top, styles.flip)}>{padPrev}</div>
           <div className={styles.top}>{padCount}</div>
           <div className={styles.bottom}>{padPrev}</div>

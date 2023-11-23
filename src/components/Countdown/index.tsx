@@ -24,7 +24,7 @@ const Countdown = ({
     <div
       className={cn(
         styles.countdown,
-        "flex w-[200px] h-[200px] items-center flex-col "
+        "md:flex grid w-[100px] h-[100px] md:w-[200px] md:h-[200px] items-center grid-cols-2 md:flex-col "
       )}
     >
       <div className={styles.countdownBlockBackface}>

@@ -48,7 +48,7 @@ const CountDownTimer = ({
         backgroundSize: "cover",
       }}
     >
-      <div className="flex w-full h-[60%] justify-center items-center py-10">
+      <div className="flex md:w-full md:h-[60%] md:justify-center md:items-center md:py-10">
         <Countdown prev={0} count={remainTime.days} label={"days"} />
         <Countdown prev={0} count={remainTime.hours} label={"hours"} />
         <Countdown prev={0} count={remainTime.minutes} label={"minutes"} />

@@ -32,13 +32,13 @@ function Hero() {
         className="md:pt-[250px] pt-[150px] pl-[50px] lg:pl-[100px] "
       >
         <h1
-          className={`text-white ${poppins.className}  font-outline-2 font-extrabold  mb-5 w-[200px] sm:w-full md:text-6xl text-3xl lg:text-6xl`}
+          className={`text-white ${poppins.className}  font-outline-2 font-extrabold  mb-5 w-[200px] sm:w-[550px]   md:text-6xl lg:w-full text-5xl lg:text-6xl`}
         >
           START <span className="text-Green ">PLANTING?</span>
           START WITH
           <span className="text-Brown2 "> OLATIVITY</span>
         </h1>
-        <p className="container px-4 border-2 border-black bg-Brown2 rounded-3xl font-semibold w-[250px] md:w-[750px] text-Yellow text-lg md:text-lg ">
+        <p className="container px-4 border-2 border-black bg-Brown2 rounded-3xl font-semibold w-[450px] md:w[650px] lg:w-[750px] text-Yellow text-lg md:text-lg ">
           Masa dua tahun yang akan datang akan terjadi berbakai krisis, oleh
           karena itu dengan cara melestarikan tanaman dan tumbuhan maka akan
           mencegah hal tersebut terjadi. Maka Ayo Bersama kami melakukan

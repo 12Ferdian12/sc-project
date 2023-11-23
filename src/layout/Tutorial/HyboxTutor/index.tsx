@@ -25,7 +25,7 @@ function Hybox() {
                   <div className="">
                     <div className=" flex justify-center items-center">
                       <img
-                        className="rounded lg:h-[300px]"
+                        className="rounded md:h-[250px] lg:h-[300px]"
                         src={Hybox.image}
                         alt=""
                       />

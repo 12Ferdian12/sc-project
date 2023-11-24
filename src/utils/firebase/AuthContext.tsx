@@ -26,7 +26,7 @@ interface AuthContextProviderProps {
 
 export const AuthContextProvider = ({ children }: AuthContextProviderProps) => {
   const [user, setUser] = useState<User | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -42,8 +42,6 @@ export const AuthContextProvider = ({ children }: AuthContextProviderProps) => {
   }, []);
 
   return (
-    <AuthContext.Provider value={{ user }}>
-      {loading ? <div>Loading...</div> : children}
-    </AuthContext.Provider>
+    <AuthContext.Provider value={{ user }}>{children}</AuthContext.Provider>
   );
 };

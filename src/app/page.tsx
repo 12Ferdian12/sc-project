@@ -2,16 +2,16 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/layout/Hero";
-import type { Metadata } from "next";
-import CountDownTimer from "@/layout/CountDown";
-import About from "@/layout/About";
-import Product from "@/layout/product";
 import { useDispatch } from "@/hooks";
 import { useEffect } from "react";
 import {
   closeLoadingModal,
   openLoadingModal,
 } from "@/redux/reducer/loadingModalReducer";
+import type { Metadata } from "next";
+import CountDownTimer from "@/layout/CountDown";
+import About from "@/layout/About";
+import Product from "@/layout/product";
 import Game from "@/layout/game";
 import TutorSection from "@/layout/TutorSection";
 import SignIn from "@/components/Authentication/signin";
@@ -28,6 +28,17 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  // cara panggil modal
+  // const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //   dispatch(openLoadingModal());
+
+  //   setTimeout(() => {
+  //     dispatch(closeLoadingModal());
+  //   }, 3000);
+  // }, [dispatch]);
+
   const currentDateTime = new Date();
 
   // Define a custom date/time (e.g., December 1, 2023, at 12:00:00)

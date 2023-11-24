@@ -24,11 +24,21 @@ const Countdown = ({
     <div
       className={cn(
         styles.countdown,
-        "md:flex grid w-[100px] h-[100px] md:w-[200px] md:h-[200px] items-center grid-cols-2 md:flex-col "
+        "flex  w-[100px] h-[100px] md:w-[200px] md:h-[200px] items-center  flex-col  "
       )}
     >
-      <div className={styles.countdownBlockBackface}>
-        <div className={cn(styles.countdownBlock)}>
+      <div
+        className={cn(
+          styles.countdownBlockBackface,
+          "w-[60px] sm:w-[80px] md:w-[120px] "
+        )}
+      >
+        <div
+          className={cn(
+            styles.countdownBlock,
+            "leading-[60px] sm:leading-[63px] md:leading-[96px] text-[30px] md:text-[48px]"
+          )}
+        >
           <div className={cn(styles.top, styles.flip)}>{padPrev}</div>
           <div className={styles.top}>{padCount}</div>
           <div className={styles.bottom}>{padPrev}</div>
@@ -37,7 +47,14 @@ const Countdown = ({
           <div className={styles.countdownBlockSide}></div>
         </div>
       </div>
-      <p className={cn(styles.label)}>{label}</p>
+      <p
+        className={cn(
+          styles.label,
+          "text-[16px] sm:text-[18px] md:text-[24px]"
+        )}
+      >
+        {label}
+      </p>
     </div>
   );
 };

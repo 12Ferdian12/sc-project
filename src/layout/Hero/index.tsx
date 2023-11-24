@@ -18,11 +18,11 @@ function Hero() {
       <div
         className="absolute -z-10 sm:bg-center bg-[-400px] "
         style={{
-          backgroundImage: `url("./img/FotoKerenFerdi-min.jpg")`,
+          backgroundImage: `url("./img/FotoKerenFerdi.jpg")`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",
-          height: "100%",
+          height: "120%",
           zIndex: -10,
           opacity: 0.5,
         }}
@@ -38,7 +38,7 @@ function Hero() {
           START WITH
           <span className="text-Brown2 "> OLATIVITY</span>
         </h1>
-        <p className="container px-4 border-2 border-black bg-Brown2  rounded-3xl font-semibold w-[300px] sm:w-[350px] md:w-[650px] lg:w-[750px] text-Yellow text-lg md:text-lg ">
+        <p className="container px-4 py-2 border-2 border-black bg-Brown2  rounded-3xl font-semibold w-[300px] sm:w-[350px] md:w-[650px] lg:w-[750px] text-Yellow text-lg md:text-lg ">
           Masa dua tahun yang akan datang akan terjadi berbakai krisis, oleh
           karena itu dengan cara melestarikan tanaman dan tumbuhan maka akan
           mencegah hal tersebut terjadi. Maka Ayo Bersama kami melakukan

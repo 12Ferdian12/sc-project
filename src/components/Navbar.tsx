@@ -31,11 +31,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sticky z-50 flex
+      className={`z-50 flex
         transition ease-in-out duration-500
-      ${
-        visible ? "top-0" : ""
-      } bg-Green flex-col border-b-4 border-Brown2 h-full`}
+         bg-Green flex-col border-b-4 border-Brown2 h-full`}
     >
       <div className="justify-between items-center flex p-7">
         <div className="bg-white border-2 border-Brown2 rounded-full">

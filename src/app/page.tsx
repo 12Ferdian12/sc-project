@@ -39,23 +39,23 @@ export default function Home() {
   //   }, 3000);
   // }, [dispatch]);
 
-  const currentDateTime = new Date();
+  // const currentDateTime = new Date();
 
-  // Define a custom date/time (e.g., December 1, 2023, at 12:00:00)
-  const customDateTime = new Date("2024-01-01T21:00:00");
+  // // Define a custom date/time (e.g., December 1, 2023, at 12:00:00)
+  // const customDateTime = new Date("2024-01-01T21:00:00");
 
-  // Calculate the time difference in milliseconds
-  const timeDifferenceMs = customDateTime.getTime() - currentDateTime.getTime();
+  // // Calculate the time difference in milliseconds
+  // const timeDifferenceMs = customDateTime.getTime() - currentDateTime.getTime();
 
-  // Convert milliseconds to days, hours, minutes, and seconds
-  const daysDifference = Math.floor(timeDifferenceMs / (1000 * 60 * 60 * 24));
-  const hoursDifference = Math.floor(
-    (timeDifferenceMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-  );
-  const minutesDifference = Math.floor(
-    (timeDifferenceMs % (1000 * 60 * 60)) / (1000 * 60)
-  );
-  const secondsDifference = Math.floor((timeDifferenceMs % (1000 * 60)) / 1000);
+  // // Convert milliseconds to days, hours, minutes, and seconds
+  // const daysDifference = Math.floor(timeDifferenceMs / (1000 * 60 * 60 * 24));
+  // const hoursDifference = Math.floor(
+  //   (timeDifferenceMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  // );
+  // const minutesDifference = Math.floor(
+  //   (timeDifferenceMs % (1000 * 60 * 60)) / (1000 * 60)
+  // );
+  // const secondsDifference = Math.floor((timeDifferenceMs % (1000 * 60)) / 1000);
 
   return (
     <>
@@ -66,12 +66,12 @@ export default function Home() {
         <Product />
         {/* <Game /> */}
         <TutorSection />
-        <CountDownTimer
+        {/* <CountDownTimer
           days={daysDifference}
           hours={hoursDifference}
           minutes={minutesDifference}
           seconds={secondsDifference}
-        />
+        /> */}
         {/* <SignIn /> */}
       </main>
       <Footer />

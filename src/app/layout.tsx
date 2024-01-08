@@ -1,5 +1,5 @@
 "use client";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import { store } from "@/redux/store";
 import "./globals.css";
 import type { Metadata } from "next";
@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { AuthContextProvider } from "@/utils/firebase/AuthContext";
+import Modals from "@/components/Modals";
 
 const inter = Inter({ subsets: ["latin"] });
 export const leagueSpartan = League_Spartan({ subsets: ["latin"] });
@@ -39,6 +40,7 @@ export default function RootLayout({
         <body>
           <AuthContextProvider>
             <LoadingModal />
+            <Modals />
             {children}
           </AuthContextProvider>
         </body>

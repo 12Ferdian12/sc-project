@@ -4,10 +4,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/layout/Hero";
 import { useDispatch } from "@/hooks";
 import { useEffect } from "react";
-import {
-  closeLoadingModal,
-  openLoadingModal,
-} from "@/redux/reducer/loadingModalReducer";
+import { openModal } from "@/redux/reducer/ModalReducer";
 import type { Metadata } from "next";
 import CountDownTimer from "@/layout/CountDown";
 import About from "@/layout/About";
@@ -18,6 +15,7 @@ import SignIn from "@/components/Authentication/signin";
 import signUp from "@/utils/firebase/auth/signup";
 import { useAuthContext } from "@/utils/firebase/AuthContext";
 import { useRouter } from "next/router";
+import HomePage from "@/layout/Home";
 
 export const metadata: Metadata = {
   title: "Olativity",
@@ -61,18 +59,7 @@ export default function Home() {
     <>
       <Navbar />
       <main>
-        <Hero />
-        <About />
-        <Product />
-        {/* <Game /> */}
-        <TutorSection />
-        {/* <CountDownTimer
-          days={daysDifference}
-          hours={hoursDifference}
-          minutes={minutesDifference}
-          seconds={secondsDifference}
-        /> */}
-        {/* <SignIn /> */}
+        <HomePage />
       </main>
       <Footer />
     </>

@@ -1,5 +1,3 @@
-"use client";
-
 import LoadingModal from "@/components/loadingModal";
 import React, { useEffect } from "react";
 import { useMediaQuery } from "@/hooks";

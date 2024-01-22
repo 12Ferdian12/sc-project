@@ -1,7 +1,15 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { openModal } from "@/redux/reducer/ModalReducer";
+import { useDispatch } from "@/hooks";
 import "./style.css";
+import TokenForm from "./tokenForm";
+import { Button } from "react-bootstrap";
+import cn from "classnames";
+import SpinningWheelForm from "./spinningWheelForm";
 function ChallengePage() {
+  const [isTokenCorrect, setIsTokenCorrect] = useState(false);
+
   const questions = [
     {
       questionText: "What is the capital of France?",
@@ -57,12 +65,23 @@ function ChallengePage() {
       setShowScore(true);
     }
   };
+
+  if (score > 0) {
+    return <SpinningWheelForm />;
+  }
+
   return (
     <section className="flex bg-gradient-to-b from-slate-700/50 to-Coklat min-h-[100vh]  md:min-h-[60vh] bg-opacity-50 bg-cover lg:min-h-[100vh]">
-      <div className="app mx-auto my-auto text-white">
-        {showScore ? (
-          <div className="score-section">
-            You scored {score} out of {questions.length}
+      <div className="app bg-BB mx-auto my-auto border-4 border-Yellow text-white">
+        {!isTokenCorrect ? (
+          <TokenForm setIsTokenCorrect={setIsTokenCorrect} />
+        ) : showScore ? (
+          <div className="flex-row mx-auto my-auto  ">
+            <div className="score-section">
+              You scored {score} out of {questions.length}
+            </div>
+
+            <button className="mt-5">Spin</button>
           </div>
         ) : (
           <>

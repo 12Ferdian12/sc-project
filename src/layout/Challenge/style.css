@@ -54,8 +54,8 @@
 button {
   width: 100%;
   font-size: 16px;
-  color: #ffffff;
-  background-color: #252d4a;
+  color: #000000;
+  background-color: #ffcf7b;
   border-radius: 15px;
   display: flex;
   padding: 5px;
@@ -73,7 +73,7 @@ button {
 }
 
 button:hover {
-  background-color: #555e7d;
+  background-color: #ffcf7b;
 }
 
 button:focus {

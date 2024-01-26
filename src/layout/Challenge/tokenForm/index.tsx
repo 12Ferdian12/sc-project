@@ -13,7 +13,7 @@ function TokenForm({
   const handleButtonCheckToken = async () => {
     try {
       const checkToken = await getTokenByCode(inputToken);
-      if (checkToken) {
+      if (checkToken.length > 0) {
         setIsTokenCorrect(true);
       } else {
         setError("Token is incorrect");

@@ -4,6 +4,7 @@ import { getAllPrize } from "../../../api/prize";
 
 import RoulettePro from "react-roulette-pro";
 import "react-roulette-pro/dist/index.css";
+import "../style.css";
 
 interface Prize {
   image: string;
@@ -111,18 +112,19 @@ const SpinningWheelForm = () => {
   }, []);
 
   return (
-    <>
-      <div className="mx-auto my-auto"></div>
-      {prizeList.length > 0 && (
-        <RoulettePro
-          prizes={prizeList}
-          prizeIndex={prizeIndex}
-          start={start}
-          onPrizeDefined={handlePrizeDefined}
-        />
-      )}
-      <button onClick={handleStart}>Start</button>
-    </>
+    <div className="flex bg-gradient-to-b from-slate-700/50 to-Coklat min-h-[100vh]  md:min-h-[60vh] bg-opacity-50 bg-cover lg:min-h-[100vh]">
+      <div className="mx-auto my-auto flex flex-col  items-center justify-center app bg-BB border-4 border-Yellow text-white overflow-x-hidden space-y-4">
+        {prizeList.length > 0 && (
+          <RoulettePro
+            prizes={prizeList}
+            prizeIndex={prizeIndex}
+            start={start}
+            onPrizeDefined={handlePrizeDefined}
+          />
+        )}
+        <button onClick={handleStart}>Start</button>
+      </div>
+    </div>
   );
 };
 

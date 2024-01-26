@@ -5,17 +5,18 @@ const getAllToken = async () => {
     const response = await axios.get("/api/token");
     return response.data;
   } catch (error) {
-    throw new Error("Failed to fetch all prizes");
+    throw new Error("Failed to fetch token");
   }
 };
 
 const getTokenByCode = async (code) => {
   try {
-    const response = await axios.get(`/api/token?code=${code}`);
-    console.log(response.data);
-    return response.data;
+    const response = await axios.get(`/api/token`);
+    let data = response.data.filter((token) => token.token === code);
+
+    return data;
   } catch (error) {
-    throw new Error("Failed to fetch prize by code");
+    throw new Error("Failed to fetch token by code");
   }
 };
 

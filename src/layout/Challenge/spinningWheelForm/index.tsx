@@ -18,6 +18,7 @@ const SpinningWheelForm = () => {
   function SpinNing() {
     let randomPrize = Math.floor(Math.random() * 1000000);
     let prizeIndex = 0;
+    console.log(prizes);
     switch (true) {
       case randomPrize <= 5:
         prizeIndex = 0;
@@ -52,6 +53,7 @@ const SpinningWheelForm = () => {
       default:
         break;
     }
+
     console.log(randomPrize);
     return prizeIndex;
   }

@@ -9,11 +9,11 @@ import { openModal } from "@/redux/reducer/ModalReducer";
 import { useDispatch } from "@/hooks";
 
 function HomePage() {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(openModal("hello world"));
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(openModal("hello world"));
+  // }, [dispatch]);
 
   return (
     <div>
